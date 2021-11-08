@@ -1,0 +1,44 @@
+html{
+  scroll-behavior: smooth;
+}
+section{
+  color: white;
+  position: relative;
+  width: 50%;
+  height: 50%;
+  background-image: url(../images/backgroundImg.png) no-repeat top center;
+  background-size: cover !important;
+	-webkit-background-size: cover !important;
+  overflow: hidden;
+}
+#home{
+  background-image: url(../images/backgroundImg.png) no-repeat top center;
+  background-size: cover !important;
+	-webkit-background-size: cover !important;
+  overflow: hidden;
+}
+
+nav{
+  text-align: center;
+  background-color: darkred;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 25px;
+}
+a{  
+  color: white;
+  padding: 15px;
+  font-family: verdana;
+  font-size: 20px;
+  text-decoration: none;
+  position: relative;
+}
+a:hover{
+  color: gray;
+}
+
+#about{
+  background-color: black;
+}
