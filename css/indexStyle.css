@@ -1,32 +1,16 @@
-html{
+/*html{
   scroll-behavior: smooth;
-}
-section{
-  color: white;
-  position: relative;
-  width: 50%;
-  height: 50%;
-  background-image: url(../images/backgroundImg.png) no-repeat top center;
-  background-size: cover !important;
-	-webkit-background-size: cover !important;
-  overflow: hidden;
-}
-#home{
-  background-image: url(../images/backgroundImg.png) no-repeat top center;
-  background-size: cover !important;
-	-webkit-background-size: cover !important;
-  overflow: hidden;
-}
+}*/
 
 nav{
   text-align: center;
   background-color: darkred;
-  width: 100%;
-  position: absolute;
+  width: 100.7%;
+  position: sticky;
   top: 0;
-  left: 0;
   padding: 25px;
 }
+
 a{  
   color: white;
   padding: 15px;
@@ -39,6 +23,49 @@ a:hover{
   color: gray;
 }
 
-#about{
-  background-color: black;
+section{
+  color: black;
+  background-color: lightslategray;
+  position: inherit;
+  width: 100%;
+  height: fit-content;
+  padding: 30px;
+  top: 0;
 }
+
+#home{
+  padding-top: 70px;
+  background: url(../images/backgroundImg.png) no-repeat;
+  position: inherit;
+  width: 100%;
+  height: 550px;
+  left: 0;
+  background-size: cover !important;
+	-webkit-background-size: cover !important;
+}
+
+#about{
+  vertical-align: middle;
+  font: verdana;
+  font-size: 30px;
+}
+
+#familyPic{
+  border-radius: 50%;
+  width: 500px;
+  height: 550px;
+}
+
+/*body{
+  background-image: url(../images/backgroundImg.png) no-repeat top center;
+  background-size: cover !important;
+	-webkit-background-size: cover !important;
+  overflow: hidden;
+}*/
+
+/*#about{
+}
+#directions{
+}
+#contact{
+}*/
