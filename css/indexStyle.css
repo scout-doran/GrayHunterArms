@@ -8,7 +8,7 @@ html, body {
 
 nav{
   text-align: center;
-  background-color: darkred;
+  background-color: #b66540;
   width: 100%;
   padding: 25px;
   position: fixed;
@@ -17,7 +17,7 @@ nav{
 }
 
 a{  
-  color: white;
+  color: #F4EBD0;
   padding: 15px;
   font-family: verdana;
   font-size: 20px;
@@ -25,15 +25,15 @@ a{
   position: relative;
 }
 a:hover{
-  color: gray;
+  color: #D6AD60;
 }
 
 section{
-  color: black;
-  background-color: lightslategray;
+  color: #122620;
+  background-color: #F4EBD0;
   width: 100%;
   height: fit-content;
-  padding: 100px;
+  padding: 80px;
 }
 
 #home{
