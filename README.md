@@ -1,1 +1,2 @@
 # GrayHunterArms
+Author: Scout Doran
